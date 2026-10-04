@@ -1,0 +1,11 @@
+Chord Live for VirtualDJ — Copyright (c) 2026 Olivier FRAPPIER. All rights reserved.
+
+The compiled plugin is provided free of charge ("freeware"), for personal and professional use.
+You may not sell, modify, decompile or redistribute it without written permission.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. IN NO EVENT SHALL THE AUTHOR BE LIABLE
+FOR ANY CLAIM, DAMAGES OR DATA LOSS. The plugin does not modify your VirtualDJ database nor your files.
+
+VirtualDJ is a trademark of Atomix Productions; this project is not affiliated with Atomix Productions.
+
+Third-party: Ogg Vorbis decoding uses stb_vorbis by Sean Barrett (public domain / MIT), https://github.com/nothings/stb
