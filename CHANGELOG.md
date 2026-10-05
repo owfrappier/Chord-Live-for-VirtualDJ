@@ -1,5 +1,8 @@
 # Changelog
 
+## V1.7 — 2026-10 (minor keys)
+- **Dominant chord in minor keys**: when the leading tone is heard, the V chord is shown major as it is played (E / E7 in A minor, not Em).
+
 ## V1.6 — 2026-10 (better chord detection)
 - **Repetitions**: a chorus or verse that comes back several times is analysed together with all its repetitions, so it gets the same, more reliable chords every time.
 - **Key changes that go up** (a semitone or a tone near the end of the song): detected, chords favoured in the new key, and the key shown in the window follows the song.
