@@ -1,5 +1,5 @@
 <h1 align="center">Chord Live for VirtualDJ</h1>
-<p align="center"><b>V1.4</b> · VirtualDJ plugin · macOS (Apple Silicon) · Windows (x64)</p>
+<p align="center"><b>V1.6</b> · VirtualDJ plugin · macOS (Apple Silicon) · Windows (x64)</p>
 <p align="center"><a href="https://www.paypal.com/paypalme/owfrappier"><b>☕ DONATE (PayPal)</b></a></p>
 
 <p align="center"><img src="screenshot-blue.png" alt="Chord Live — current chord, key, tuning and scrolling chords" width="900"></p>
@@ -27,9 +27,8 @@ It uses the analysis engine of [Chord Injector for VirtualDJ](https://github.com
 
 Download the latest version in **[Releases](https://github.com/owfrappier/VIRTUALDJ-CHORDS-PLUGIN/releases/latest)**.
 
-- **macOS (Apple Silicon)**: unzip `Chord-Live-for-VirtualDJ-…-macOS.zip` (signed and notarised by Apple) and copy `ChordLive.bundle` to
-  `~/Library/Application Support/VirtualDJ/PluginsMacArm/SoundEffect/`
-  (Finder: Go → Go to Folder…, paste the path; create `SoundEffect` if it does not exist).
+- **macOS (Apple Silicon)**: open `Chord-Live-for-VirtualDJ-…-macOS.pkg` (signed and notarised by Apple) and follow the installer. It installs `ChordLive.bundle` in
+  `~/Library/Application Support/VirtualDJ/PluginsMacArm/SoundEffect/` for the logged-in user.
 - **Windows**: copy `ChordLive.dll` to
   `%LOCALAPPDATA%\VirtualDJ\Plugins64\SoundEffect\`
   (Windows + R, paste the path; create `SoundEffect` if it does not exist — not in `Visualisation`).
@@ -55,9 +54,8 @@ Il utilise le moteur d'analyse de [Chord Injector for VirtualDJ](https://github.
 
 Dernière version dans **[Releases](https://github.com/owfrappier/VIRTUALDJ-CHORDS-PLUGIN/releases/latest)**.
 
-- **macOS (Apple Silicon)** : décompressez `Chord-Live-for-VirtualDJ-…-macOS.zip` (signé et notarisé par Apple) et copiez `ChordLive.bundle` dans
-  `~/Library/Application Support/VirtualDJ/PluginsMacArm/SoundEffect/`
-  (Finder : Aller → Aller au dossier…, collez le chemin ; créez `SoundEffect` s'il n'existe pas).
+- **macOS (Apple Silicon)** : ouvrez `Chord-Live-for-VirtualDJ-…-macOS.pkg` (signé et notarisé par Apple) et suivez l'installeur. Il installe `ChordLive.bundle` dans
+  `~/Library/Application Support/VirtualDJ/PluginsMacArm/SoundEffect/` pour l'utilisateur connecté.
 - **Windows** : copiez `ChordLive.dll` dans
   `%LOCALAPPDATA%\VirtualDJ\Plugins64\SoundEffect\`
   (Windows + R, collez le chemin ; créez `SoundEffect` s'il n'existe pas — pas dans `Visualisation`).
