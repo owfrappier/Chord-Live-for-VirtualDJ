@@ -36,6 +36,10 @@ Download the latest version in **[Releases](https://github.com/owfrappier/VIRTUA
 
 Start VirtualDJ, choose **Chord Live** in the effects of a deck and open its window. The analysis takes a few seconds per track.
 
+💡 **One-click button**: in your skin, edit a custom button (right-click → Edit) and give it the action
+`effect_active 'ChordLive' & effect_active 'ChordLive' ? effect_show_gui 'ChordLive' : nothing`
+— one click turns Chord Live on for the deck and opens its window, a second click turns it off.
+
 ---
 
 ## Français
@@ -62,6 +66,10 @@ Dernière version dans **[Releases](https://github.com/owfrappier/VIRTUALDJ-CHOR
   Sur une ancienne installation : `Documents\VirtualDJ\Plugins64\SoundEffect\`.
 
 Lancez VirtualDJ, choisissez **Chord Live** dans les effets d'une platine et ouvrez sa fenêtre. L'analyse prend quelques secondes par morceau.
+
+💡 **Bouton en un clic** : dans votre skin, modifiez un custom button (clic droit → Edit) et donnez-lui l'action
+`effect_active 'ChordLive' & effect_active 'ChordLive' ? effect_show_gui 'ChordLive' : nothing`
+— un clic active Chord Live sur la platine et ouvre sa fenêtre, un second clic le coupe.
 
 ---
 
