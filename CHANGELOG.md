@@ -1,5 +1,11 @@
 # Changelog
 
+## V1.8 — 2026-10
+- **Audio decoded by VirtualDJ itself** (from the original sound, before pitch / key / Master Tempo): every format VirtualDJ plays, videos included, and faster. Fallback to the file on disk when the track is not playing.
+- **→ DB / → tags** buttons, right under the key: write the detected key into VirtualDJ's database or also into the file's tag, done by VirtualDJ itself; green when confirmed, red if not.
+- **all to 0** button (tempo and key back to the original, auto tuning kept); **pitch 0** and **all to 0** flash green when clicked.
+- Interface in English; the analysis summary line is gone (only progress and errors are shown).
+
 ## V1.7 — 2026-10 (minor keys)
 - **Dominant chord in minor keys**: when the leading tone is heard, the V chord is shown major as it is played (E / E7 in A minor, not Em).
 
