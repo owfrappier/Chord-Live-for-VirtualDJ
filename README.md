@@ -2,9 +2,9 @@
 <p align="center"><b>V1.8</b> · VirtualDJ plugin · macOS (Apple Silicon) · Windows (x64)</p>
 <p align="center"><a href="https://www.paypal.com/paypalme/owfrappier"><b>☕ DONATE (PayPal)</b></a></p>
 
-<p align="center"><img src="screenshot-blue.png" alt="Chord Live — current chord, key, tuning and scrolling chords" width="900"></p>
-<p align="center"><img src="screenshot-yellow.png" alt="Chord Live — yellow colour" width="900"></p>
-
+<p align="center"><img src="screenshot1" alt="Chord Live — current chord, key, tuning and scrolling chords" width="900"></p>
+<p align="center"><img src="screenshot2" alt="Chord Live — yellow colour" width="900"></p>
+<p align="center"><img src="screenshot3" alt="Chord Live — yellow colour" width="900"></p>
 ---
 
 🇬🇧 [English](#english) · 🇫🇷 [Français](#français)
