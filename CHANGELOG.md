@@ -1,5 +1,10 @@
 # Changelog
 
+## V2.0 — 2026-10 (chords on the waveform, skin integration)
+- **Chords scrolling over VirtualDJ's own waveform** (macOS and Windows): a transparent layer on each deck's waveform band, in sync with the track; clicks go through to VirtualDJ. Adjusted once per deck (position, size, scale); it follows window resizing and full screen.
+- **Works with its window closed**: the analysis, auto tuning and texts keep running as long as Chord Live is active on the deck.
+- **Skin integration**: 7 buttons (`effect_button 'ChordLive' 1..7`) and 24 live texts (`get_effect_string 'ChordLive' 1..24`) — current chord, next 6 chords with their length in beats, beats left, key heard, comparison with VirtualDJ's key, tuning, harmonic match with the other deck, next key change… Full list at the end of the README.
+
 ## V1.8 — 2026-10
 - **Audio decoded by VirtualDJ itself** (from the original sound, before pitch / key / Master Tempo): every format VirtualDJ plays, videos included, and faster. Fallback to the file on disk when the track is not playing.
 - **→ DB / → tags** buttons, right under the key: write the detected key into VirtualDJ's database or also into the file's tag, done by VirtualDJ itself; green when confirmed, red if not.
