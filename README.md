@@ -1,6 +1,9 @@
+
+
 <h1 align="center">Chord Live for VirtualDJ</h1>
 <p align="center"><b>V1.8</b> · VirtualDJ plugin · macOS (Apple Silicon) · Windows (x64)</p>
 <p align="center"><a href="https://www.paypal.com/paypalme/owfrappier"><b>☕ DONATE (PayPal)</b></a></p>
+https://github.com/user-attachments/assets/a7a9e44f-ef66-474a-b8f0-74a5afbe2023
 
 <p align="center"><img src="screenshot11.png" alt="Chord Live — current chord, key, tuning and scrolling chords" width="900"></p>
 <p align="center"><img src="screenshot12.png" alt="Chord Live — yellow colour" width="900"></p>
