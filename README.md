@@ -1,15 +1,13 @@
 
 
-
-
 <h1 align="center">Chord Live for VirtualDJ</h1>
-<p align="center"><b>V2.0</b> · VirtualDJ plugin · macOS (Apple Silicon) · Windows (x64)</p>
+<p align="center"><b>V2.1</b> · VirtualDJ plugin · macOS (Apple Silicon) · Windows (x64)</p>
 <p align="center"><a href="https://www.paypal.com/paypalme/owfrappier"><b>☕ DONATE (PayPal)</b></a></p>
 
 
 
 
-https://github.com/user-attachments/assets/d857974e-e634-4f0c-8c63-0ad0e9667be4
+https://github.com/user-attachments/assets/a7a9e44f-ef66-474a-b8f0-74a5afbe2023
 
 
 
@@ -31,6 +29,7 @@ https://github.com/user-attachments/assets/d857974e-e634-4f0c-8c63-0ad0e9667be4
 - ✅ **Auto tuning**: the track is brought to A = 440 Hz with `key_smooth` — **the tempo does not change**, with or without Master Tempo, and **your own transposition is kept** (deck at +2 → stays +2, in tune).
 - **pitch 0** (tempo back to the original) and **all to 0** (tempo and key back to the original, auto tuning kept) buttons, **zoom** (− / +), **7 colours**, follows the deck's transposition.
 - **→ DB / → tags** (right under the key): write the detected key into VirtualDJ's database, or also into the audio file's tag. VirtualDJ itself does the writing (safe, even while it is running), only when you click; the button turns green once VirtualDJ shows the new key.
+- 🥁 **New in V2.1 — better chords on tracks with drums**: the kick drum is filtered out of the low end before the analysis, so the bass line — and the right chord root and inversion — comes through. Acoustic tracks are analysed as before. Half-diminished chords (m7b5) are also recognised from the bass.
 - 🌊 **New in V2.0 — chords scrolling over VirtualDJ's own waveform**, in sync with the track, on each deck (macOS and Windows). Turn it on with a custom button `effect_button 'ChordLive' 6`; the first time, adjust the layer on the deck's waveform band (drag, corner = size, wheel = scale, then OK) — right-click / `effect_button 'ChordLive' 7` to adjust again. It follows window resizing and full screen.
 - 🧩 **New in V2.0 — skin integration**: every function and live text (current chord, next 6 chords, beats left, key, tuning, harmonic match with the other deck…) is available to skins and controllers — see [Skin integration](#skin-integration-v20--intégration-dans-un-skin) below. Chord Live keeps working with its window closed.
 - **Nothing is written** to your VirtualDJ database or to your files unless you click → DB / → tags. The audio is decoded by **VirtualDJ itself** (every format it can play, videos included), from the original sound before pitch, key and Master Tempo, while the track plays. If the track is not playing, Chord Live reads the original file from disk instead (MP3, AAC/M4A, ALAC, AIFF, WAV, FLAC, Ogg Vorbis, MP4/MOV/M4V audio; Windows also WMA/WMV; other formats if [ffmpeg](https://ffmpeg.org) is installed).
@@ -65,6 +64,7 @@ Start VirtualDJ, choose **Chord Live** in the effects of a deck and open its win
 - ✅ **Auto tuning** (diapason auto) : le morceau est ramené à La = 440 Hz avec `key_smooth` — **le tempo ne change pas**, avec ou sans Master Tempo, et **votre transposition est conservée** (platine à +2 → reste à +2, juste).
 - Boutons **pitch 0** (tempo d'origine) et **all to 0** (tempo et tonalité d'origine, diapason auto conservé), **zoom** (− / +), **7 couleurs**, suit la transposition de la platine.
 - **→ DB / → tags** (juste sous la tonalité) : écrit la tonalité trouvée dans la base de VirtualDJ, ou aussi dans le tag du fichier audio. C'est VirtualDJ lui-même qui écrit (sans risque, même pendant qu'il tourne), seulement sur clic ; le bouton passe au vert quand VirtualDJ affiche la nouvelle tonalité.
+- 🥁 **Nouveau en V2.1 — accords plus justes sur les morceaux avec batterie** : la grosse caisse est filtrée dans le grave avant l'analyse, la ligne de basse — et donc la bonne fondamentale et le bon renversement — ressort. Les morceaux acoustiques sont analysés comme avant. Les accords demi-diminués (m7b5) sont aussi reconnus d'après la basse.
 - 🌊 **Nouveau en V2.0 — les accords défilent sur la forme d'onde de VirtualDJ**, en synchro avec le morceau, sur chaque platine (macOS et Windows). Activez-les avec un custom button `effect_button 'ChordLive' 6` ; la première fois, calez le calque sur la bande de la forme d'onde (glisser, coin = taille, molette = échelle, puis OK) — `effect_button 'ChordLive' 7` pour le refaire. Il suit le redimensionnement et le plein écran.
 - 🧩 **Nouveau en V2.0 — intégration dans les skins** : toutes les fonctions et les textes en direct (accord en cours, 6 suivants, temps restants, tonalité, diapason, compatibilité avec l'autre platine…) sont disponibles pour les skins et les contrôleurs — voir [Intégration dans un skin](#skin-integration-v20--intégration-dans-un-skin) plus bas. Chord Live fonctionne aussi fenêtre fermée.
 - **Rien n'est écrit** dans votre base VirtualDJ ni dans vos fichiers, sauf si vous cliquez sur → DB / → tags. L'audio est décodé par **VirtualDJ lui-même** (tous les formats qu'il sait lire, vidéos comprises), sur le son original avant pitch, tonalité et Master Tempo, pendant la lecture du morceau. Si le morceau ne joue pas, Chord Live lit le fichier original sur le disque (MP3, AAC/M4A, ALAC, AIFF, WAV, FLAC, Ogg Vorbis, audio des MP4/MOV/M4V ; sous Windows aussi WMA/WMV ; autres formats si [ffmpeg](https://ffmpeg.org) est installé).

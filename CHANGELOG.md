@@ -1,5 +1,9 @@
 # Changelog
 
+## V2.1 — 2026-10 (better chords on tracks with drums)
+- **Bass heard through the kick drum**: on tracks with drums, the kick is filtered out of the low end before the analysis, so the bass line is followed better: right chord roots and inversions instead of a chord read from its third (Bbm7 instead of Db, Abmaj7 instead of Cm). Only on tracks with a real kick drum; acoustic tracks (piano, strings, songs) are analysed exactly as before.
+- **Half-diminished chords from the bass**: a minor chord over the 6th / major chord over the #4 is shown as the half-diminished chord of the bass (G#m7b5) when the key confirms it; a maj7 without its root over its 7th becomes the diminished chord of the bass (D#m7b5).
+
 ## V2.0 — 2026-10 (chords on the waveform, skin integration)
 - **Chords scrolling over VirtualDJ's own waveform** (macOS and Windows): a transparent layer on each deck's waveform band, in sync with the track; clicks go through to VirtualDJ. Adjusted once per deck (position, size, scale); it follows window resizing and full screen.
 - **Works with its window closed**: the analysis, auto tuning and texts keep running as long as Chord Live is active on the deck.
