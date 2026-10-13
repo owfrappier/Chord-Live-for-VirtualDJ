@@ -1,5 +1,10 @@
 # Changelog
 
+## V2.2.1 — 2026-10 (fix + piano ostinatos)
+- **Playback started right after loading**: chords now go to the end of the track (before, the part VirtualDJ had not decoded yet was taken for the end or for silence — no chords after the beginning until you went back to the start).
+- **Neighbour notes over a held chord** (piano ostinato D → G, D → E, D → F): Dsus4 / Dsus2 / Dm beat by beat, only when the pattern repeats bar after bar.
+- **Left hand climbing over a pedal** (D–A → D–Bb): the chord of the 4th is shown (Gm, Gm(add9)), then the dominant (A) before falling back.
+
 ## V2.2 — 2026-10 (the third you hear)
 - **Third heard over the key**: a chord is major or minor according to the third actually played, not to the key's scale (G after D in a minor song when B natural is played). A minor 7th chord without a heard third becomes a dominant 7th (G7, not Gm7).
 - **Doubtful third → power chord**: when neither third is really heard, the chord is shown without it (**A5**) instead of guessing.
