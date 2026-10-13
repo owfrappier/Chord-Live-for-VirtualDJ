@@ -1,5 +1,13 @@
 # Changelog
 
+## V2.2 — 2026-10 (the third you hear)
+- **Third heard over the key**: a chord is major or minor according to the third actually played, not to the key's scale (G after D in a minor song when B natural is played). A minor 7th chord without a heard third becomes a dominant 7th (G7, not Gm7).
+- **Doubtful third → power chord**: when neither third is really heard, the chord is shown without it (**A5**) instead of guessing.
+- **Phantom major third**: the overtone of a low bass note (D2 → F#4) is no longer taken for a played major third; a weak but real minor third wins (Dm instead of D, minor key found). A root played alone in a minor song is shown as **D5**.
+- **Piano arpeggios** (calm tracks without drums): chords read from the notes attacked, bar by bar (Absus4, C#m7/B…).
+- **First chord** starting just before the first beat is kept.
+- **Streaming tracks** (Tidal, Deezer…): the whole track is captured; the end of the download is no longer taken for the end of the track.
+
 ## V2.1 — 2026-10 (better chords on tracks with drums)
 - **Bass heard through the kick drum**: on tracks with drums, the kick is filtered out of the low end before the analysis, so the bass line is followed better: right chord roots and inversions instead of a chord read from its third (Bbm7 instead of Db, Abmaj7 instead of Cm). Only on tracks with a real kick drum; acoustic tracks (piano, strings, songs) are analysed exactly as before.
 - **Half-diminished chords from the bass**: a minor chord over the 6th / major chord over the #4 is shown as the half-diminished chord of the bass (G#m7b5) when the key confirms it; a maj7 without its root over its 7th becomes the diminished chord of the bass (D#m7b5).
