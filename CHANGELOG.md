@@ -1,5 +1,10 @@
 # Changelog
 
+## V2.3 — 2026-10 (chords in time, to the end of the track)
+- **No more drift**: the chord grid (window, waveform, skin texts) follows the same clock as the analysed audio. Before, it was right at the start of a track and fell slightly behind as the track went on.
+- **Smoother, on-time scrolling**: between two position updates from VirtualDJ the display keeps moving at the measured speed instead of being pulled back to an old position (it was sometimes a little late).
+- **macOS — chords stay on the waveform when another app has the focus**: the layer moves just above VirtualDJ's window instead of disappearing (it never covers the other app).
+
 ## V2.2.1 — 2026-10 (fix + piano ostinatos)
 - **Playback started right after loading**: chords now go to the end of the track (before, the part VirtualDJ had not decoded yet was taken for the end or for silence — no chords after the beginning until you went back to the start).
 - **Neighbour notes over a held chord** (piano ostinato D → G, D → E, D → F): Dsus4 / Dsus2 / Dm beat by beat, only when the pattern repeats bar after bar.
