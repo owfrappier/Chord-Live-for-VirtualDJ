@@ -1,13 +1,17 @@
 
 
+
+
+
+
 <h1 align="center">Chord Live for VirtualDJ</h1>
 <p align="center"><b>V2.4.1</b> · VirtualDJ plugin · macOS (Apple Silicon) · Windows (x64)</p>
 <p align="center"><a href="https://www.paypal.com/paypalme/owfrappier"><b>☕ DONATE (PayPal)</b></a></p>
 
 
 
+https://github.com/user-attachments/assets/30cf052c-5642-44df-9578-b5d9365c8533
 
-https://github.com/user-attachments/assets/a7a9e44f-ef66-474a-b8f0-74a5afbe2023
 
 
 
