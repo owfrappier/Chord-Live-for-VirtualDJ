@@ -1,6 +1,7 @@
 # Changelog
 
-## V2.4 — 2026-10 (chords on the waveform from the first track)
+## V2.4.1 — 2026-10 (chords on the waveform from the first track)
+- **Fix — videos**: playing a video no longer moves the waveform chords away from the waveform (VirtualDJ's video window was sometimes taken for its main window).
 - **Chord Live AutoStart** (new companion plugin, macOS and Windows): turns Chord Live and its waveform chords on for each deck the first time a track is loaded — no click needed. Turned off on a deck, it stays off until VirtualDJ restarts.
 - **Waveform chords on by default** whenever Chord Live is turned on; the layer uses its default position (no adjustment screen popping up), and an invalid saved position is ignored.
 - **No more manual adjustment of the waveform layer** (no *drag to move* / OK screen): it always places itself at its default position. Parameter button 7 is kept for skins but has no effect.
