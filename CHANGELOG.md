@@ -1,5 +1,12 @@
 # Changelog
 
+## V2.4 — 2026-10 (chords on the waveform from the first track)
+- **Chord Live AutoStart** (new companion plugin, macOS and Windows): turns Chord Live and its waveform chords on for each deck the first time a track is loaded — no click needed. Turned off on a deck, it stays off until VirtualDJ restarts.
+- **Waveform chords on by default** whenever Chord Live is turned on; the layer uses its default position (no adjustment screen popping up), and an invalid saved position is ignored.
+- **No more manual adjustment of the waveform layer** (no *drag to move* / OK screen): it always places itself at its default position. Parameter button 7 is kept for skins but has no effect.
+- **Windows installer** (`Setup.exe`): installs Chord Live and Chord Live AutoStart in the right VirtualDJ folders, with an uninstaller in Windows Settings. The macOS `.pkg` installs both too.
+- **Chord Live Pro skin included** in both installers: **CHORD WINDOW** (opens / closes the window) and **CHORD WAVE** (waveform chords) on each deck.
+
 ## V2.3 — 2026-10 (chords in time, to the end of the track)
 - **No more drift**: the chord grid (window, waveform, skin texts) follows the same clock as the analysed audio. Before, it was right at the start of a track and fell slightly behind as the track went on.
 - **Smoother, on-time scrolling**: between two position updates from VirtualDJ the display keeps moving at the measured speed instead of being pulled back to an old position (it was sometimes a little late).
