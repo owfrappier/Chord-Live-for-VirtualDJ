@@ -1,5 +1,9 @@
 # Changelog
 
+## V2.5 — 2026-10 (piano keyboard, extended chords)
+- **Piano keyboard with falling notes** in the Chord Live window (macOS and Windows): taller window → 88-key keyboard under the chords, the notes heard in the track fall onto it and light their keys as they sound (same zoom as the chords, follows the deck's transposition). Notes are read on the unwhitened spectrum, without the low notes' overtones and the hammer noise.
+- **m9 and aug(#11)** on calm tracks (Dm9, Gaug(#11)), read from the notes actually played: the analysis no longer loses a played note surrounded by louder ones (the B of Gaug(#11)).
+
 ## V2.4.1 — 2026-10 (chords on the waveform from the first track)
 - **Fix — videos**: playing a video no longer moves the waveform chords away from the waveform (VirtualDJ's video window was sometimes taken for its main window).
 - **Chord Live AutoStart** (new companion plugin, macOS and Windows): turns Chord Live and its waveform chords on for each deck the first time a track is loaded — no click needed. Turned off on a deck, it stays off until VirtualDJ restarts.

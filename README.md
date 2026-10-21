@@ -1,17 +1,13 @@
 
 
-
-
-
-
 <h1 align="center">Chord Live for VirtualDJ</h1>
-<p align="center"><b>V2.4.1</b> · VirtualDJ plugin · macOS (Apple Silicon) · Windows (x64)</p>
+<p align="center"><b>V2.5</b> · VirtualDJ plugin · macOS (Apple Silicon) · Windows (x64)</p>
 <p align="center"><a href="https://www.paypal.com/paypalme/owfrappier"><b>☕ DONATE (PayPal)</b></a></p>
 
 
 
-https://github.com/user-attachments/assets/30cf052c-5642-44df-9578-b5d9365c8533
 
+https://github.com/user-attachments/assets/a7a9e44f-ef66-474a-b8f0-74a5afbe2023
 
 
 
@@ -33,6 +29,8 @@ https://github.com/user-attachments/assets/30cf052c-5642-44df-9578-b5d9365c8533
 - ✅ **Auto tuning**: the track is brought to A = 440 Hz with `key_smooth` — **the tempo does not change**, with or without Master Tempo, and **your own transposition is kept** (deck at +2 → stays +2, in tune).
 - **pitch 0** (tempo back to the original) and **all to 0** (tempo and key back to the original, auto tuning kept) buttons, **zoom** (− / +), **7 colours**, follows the deck's transposition.
 - **→ DB / → tags** (right under the key): write the detected key into VirtualDJ's database, or also into the audio file's tag. VirtualDJ itself does the writing (safe, even while it is running), only when you click; the button turns green once VirtualDJ shows the new key.
+- 🎹 **New in V2.5 — piano keyboard with falling notes**: make the Chord Live window taller and an 88-key keyboard appears under the chords, with the notes heard in the track falling onto it (like Synthesia) and lighting their keys as they sound — same zoom as the chords, follows the deck's transposition. Shrink the window back to hide it. Note reading is approximate on full mixes (all instruments and the voice); it is clearest on piano and calm tracks.
+- 🎶 **New in V2.5 — extended chords on piano**: **m9** (Dm9 = D F A C E) and **aug(#11)** (Gaug(#11) = G B D# C#) on calm tracks, read from the notes actually played — a note surrounded by louder ones is no longer lost.
 - ▶️ **New in V2.4 — chords on the waveform as soon as a track is loaded**: the small companion plugin *Chord Live AutoStart* turns Chord Live and its waveform chords on for each deck the first time a track is loaded — no click needed (turn it off on a deck and it stays off). The waveform layer uses its default position, with no adjustment screen, and stays on the waveform when a video is played (V2.4.1).
 - ⏱️ **New in V2.3 — chords in time to the end of the track**: the chord grid follows the same clock as the analysed audio (no more drift towards the end), scrolls smoothly, and on macOS stays on VirtualDJ's waveform when another app has the focus.
 - 🎼 **New in V2.2 — the third you hear**: a chord is shown major or minor from the third actually played, not from the key (G in a minor song when B natural is played). When the third is doubtful, the chord is shown without it (**A5**). A low bass note's overtone is no longer taken for a major third (Dm instead of D, right minor key). **Piano arpeggios** and **ostinatos** (Dsus4 / Dsus2 / Dm, a left hand climbing to Gm) are read note by note, and chords now go to the end of the track even when playback starts right after loading (streaming tracks included).
@@ -76,6 +74,8 @@ Start VirtualDJ, choose **Chord Live** in the effects of a deck and open its win
 - ✅ **Auto tuning** (diapason auto) : le morceau est ramené à La = 440 Hz avec `key_smooth` — **le tempo ne change pas**, avec ou sans Master Tempo, et **votre transposition est conservée** (platine à +2 → reste à +2, juste).
 - Boutons **pitch 0** (tempo d'origine) et **all to 0** (tempo et tonalité d'origine, diapason auto conservé), **zoom** (− / +), **7 couleurs**, suit la transposition de la platine.
 - **→ DB / → tags** (juste sous la tonalité) : écrit la tonalité trouvée dans la base de VirtualDJ, ou aussi dans le tag du fichier audio. C'est VirtualDJ lui-même qui écrit (sans risque, même pendant qu'il tourne), seulement sur clic ; le bouton passe au vert quand VirtualDJ affiche la nouvelle tonalité.
+- 🎹 **Nouveau en V2.5 — clavier de piano et notes qui tombent** : agrandissez la fenêtre de Chord Live vers le bas et un clavier de 88 touches apparaît sous les accords, avec les notes entendues dans le morceau qui tombent dessus (comme Synthesia) et allument leurs touches quand elles sonnent — même zoom que les accords, suit la transposition de la platine. Réduisez la fenêtre pour le cacher. La lecture des notes est approximative sur un mix complet (tous les instruments et la voix) ; elle est la plus nette au piano et sur les morceaux calmes.
+- 🎶 **Nouveau en V2.5 — accords enrichis au piano** : **m9** (Dm9 = ré fa la do mi) et **aug(#11)** (Gaug(#11) = sol si ré# do#) sur les morceaux calmes, lus d'après les notes vraiment jouées — une note entourée de notes plus fortes n'est plus perdue.
 - ▶️ **Nouveau en V2.4 — les accords sur la forme d'onde dès le chargement d'un morceau** : le petit plugin compagnon *Chord Live AutoStart* allume Chord Live et ses accords sur la forme d'onde sur chaque platine dès le premier morceau chargé — sans clic (si vous le coupez sur une platine, il reste coupé). Le calque prend sa position par défaut, sans écran de réglage, et reste sur la forme d'onde quand une vidéo est lue (V2.4.1).
 - ⏱️ **Nouveau en V2.3 — des accords à l'heure jusqu'à la fin du morceau** : la grille d'accords suit la même horloge que l'audio analysé (plus de dérive vers la fin), défile sans à-coups et, sur macOS, reste sur la forme d'onde de VirtualDJ quand une autre application a le focus.
 - 🎼 **Nouveau en V2.2 — la tierce qu'on entend** : un accord est affiché majeur ou mineur d'après la tierce vraiment jouée, pas d'après la tonalité (G dans un morceau mineur quand le si naturel est joué). Quand la tierce est douteuse, l'accord est affiché sans elle (**A5**). L'harmonique d'une basse grave n'est plus prise pour une tierce majeure (Dm au lieu de D, bonne tonalité mineure). Les **arpèges** et **ostinatos de piano** (Dsus4 / Dsus2 / Dm, main gauche qui monte vers Gm) sont lus note par note, et les accords vont jusqu'au bout du morceau même quand la lecture est lancée tout de suite après le chargement (streaming compris).
