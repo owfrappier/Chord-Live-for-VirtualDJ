@@ -54,7 +54,7 @@ Download the latest version in **[Releases](https://github.com/owfrappier/VIRTUA
   `Plugins64\SoundEffect\` and `ChordLiveAutoStart.dll` in `Plugins64\AutoStart\` and the **Chord Live Pro** skin in `Skins\` of your VirtualDJ folder
   (`%LOCALAPPDATA%\VirtualDJ\`, or `Documents\VirtualDJ\` on older installations), and can be removed from Windows Settings → Apps.
   The installer is not code-signed: if Windows shows *Windows protected your PC*, click **More info** → **Run anyway**.
-  *Manual install*: copy the two DLLs and `Chord Live Pro.zip` to those folders yourself.
+  *Manual install*: download `Chordlive-…-manual-install.zip` (both DLLs and the skin) and copy them to those folders yourself.
 - Then, in VirtualDJ, choose the **Chord Live Pro** skin (Settings → Interface): its **CHORD WINDOW** button opens / closes the Chord Live window, **CHORD WAVE** turns the waveform chords on / off.
   *Optional*: without `ChordLiveAutoStart`, turn Chord Live on yourself in a deck's effects.
 
@@ -100,7 +100,7 @@ Dernière version dans **[Releases](https://github.com/owfrappier/VIRTUALDJ-CHOR
   `Plugins64\SoundEffect\` et `ChordLiveAutoStart.dll` dans `Plugins64\AutoStart\` et le skin **Chord Live Pro** dans `Skins\` de votre dossier VirtualDJ
   (`%LOCALAPPDATA%\VirtualDJ\`, ou `Documents\VirtualDJ\` sur une ancienne installation), et se désinstalle depuis Paramètres Windows → Applications.
   L'installeur n'est pas signé : si Windows affiche *Windows a protégé votre ordinateur*, cliquez sur **Informations complémentaires** → **Exécuter quand même**.
-  *Installation manuelle* : copiez vous-même les deux DLL et `Chord Live Pro.zip` dans ces dossiers.
+  *Installation manuelle* : téléchargez `Chordlive-…-manual-install.zip` (les deux DLL et le skin) et copiez-les vous-même dans ces dossiers.
 - Ensuite, dans VirtualDJ, choisissez le skin **Chord Live Pro** (Paramètres → Interface) : son bouton **CHORD WINDOW** ouvre / ferme la fenêtre Chord Live, **CHORD WAVE** allume / coupe les accords sur la forme d'onde.
   *Facultatif* : sans `ChordLiveAutoStart`, allumez vous-même Chord Live dans les effets d'une platine.
 
