@@ -1,5 +1,11 @@
 # Changelog
 
+## V2.6 — 2026-10 (keyboard settings)
+- **Bass notes in orange** on the keyboard (notes under C3).
+- **Clickable legend**: show or hide each part of the notes.
+- **Notes sensitivity** (− / +, 0–100 %, 50 % = V2.5): display threshold of the notes, applied instantly without a new analysis; also in the effect's settings (*Notes sensitivity*).
+- The window title shows the version.
+
 ## V2.5 — 2026-10 (piano keyboard, extended chords)
 - **Piano keyboard with falling notes** in the Chord Live window (macOS and Windows): taller window → 88-key keyboard under the chords, the notes heard in the track fall onto it and light their keys as they sound (same zoom as the chords, follows the deck's transposition). Notes are read on the unwhitened spectrum, without the low notes' overtones and the hammer noise.
 - **m9 and aug(#11)** on calm tracks (Dm9, Gaug(#11)), read from the notes actually played: the analysis no longer loses a played note surrounded by louder ones (the B of Gaug(#11)).

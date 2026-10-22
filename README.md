@@ -1,8 +1,9 @@
 
 
 <h1 align="center">Chord Live for VirtualDJ</h1>
-<p align="center"><b>V2.5</b> · VirtualDJ plugin · macOS (Apple Silicon) · Windows (x64)</p>
+<p align="center"><b>V2.6</b> · VirtualDJ plugin · macOS (Apple Silicon) · Windows (x64)</p>
 <p align="center"><a href="https://www.paypal.com/paypalme/owfrappier"><b>☕ DONATE (PayPal)</b></a></p>
+
 
 
 
@@ -28,6 +29,7 @@ https://github.com/user-attachments/assets/1ce30f9c-18be-4d2d-8606-d242e4e54f16
 - ✅ **Auto tuning**: the track is brought to A = 440 Hz with `key_smooth` — **the tempo does not change**, with or without Master Tempo, and **your own transposition is kept** (deck at +2 → stays +2, in tune).
 - **pitch 0** (tempo back to the original) and **all to 0** (tempo and key back to the original, auto tuning kept) buttons, **zoom** (− / +), **7 colours**, follows the deck's transposition.
 - **→ DB / → tags** (right under the key): write the detected key into VirtualDJ's database, or also into the audio file's tag. VirtualDJ itself does the writing (safe, even while it is running), only when you click; the button turns green once VirtualDJ shows the new key.
+- 🎚️ **New in V2.6 — keyboard settings**: the bass notes are shown in orange; click the legend to show or hide each part, and set the notes **sensitivity** (− / +) to show only the loudest notes or also the softer ones — remembered by VirtualDJ.
 - 🎹 **New in V2.5 — piano keyboard with falling notes**: make the Chord Live window taller and an 88-key keyboard appears under the chords, with the notes heard in the track falling onto it (like Synthesia) and lighting their keys as they sound — same zoom as the chords, follows the deck's transposition. Shrink the window back to hide it. Note reading is approximate on full mixes (all instruments and the voice); it is clearest on piano and calm tracks.
 - 🎶 **New in V2.5 — extended chords on piano**: **m9** (Dm9 = D F A C E) and **aug(#11)** (Gaug(#11) = G B D# C#) on calm tracks, read from the notes actually played — a note surrounded by louder ones is no longer lost.
 - ▶️ **New in V2.4 — chords on the waveform as soon as a track is loaded**: the small companion plugin *Chord Live AutoStart* turns Chord Live and its waveform chords on for each deck the first time a track is loaded — no click needed (turn it off on a deck and it stays off). The waveform layer uses its default position, with no adjustment screen, and stays on the waveform when a video is played (V2.4.1).
@@ -73,6 +75,7 @@ Start VirtualDJ, choose **Chord Live** in the effects of a deck and open its win
 - ✅ **Auto tuning** (diapason auto) : le morceau est ramené à La = 440 Hz avec `key_smooth` — **le tempo ne change pas**, avec ou sans Master Tempo, et **votre transposition est conservée** (platine à +2 → reste à +2, juste).
 - Boutons **pitch 0** (tempo d'origine) et **all to 0** (tempo et tonalité d'origine, diapason auto conservé), **zoom** (− / +), **7 couleurs**, suit la transposition de la platine.
 - **→ DB / → tags** (juste sous la tonalité) : écrit la tonalité trouvée dans la base de VirtualDJ, ou aussi dans le tag du fichier audio. C'est VirtualDJ lui-même qui écrit (sans risque, même pendant qu'il tourne), seulement sur clic ; le bouton passe au vert quand VirtualDJ affiche la nouvelle tonalité.
+- 🎚️ **Nouveau en V2.6 — réglages du clavier** : les notes de basse s'affichent en orange ; cliquez sur la légende pour afficher ou cacher chaque partie, et réglez la **sensibilité** des notes (− / +) pour ne voir que les plus fortes ou aussi les plus faibles — mémorisé par VirtualDJ.
 - 🎹 **Nouveau en V2.5 — clavier de piano et notes qui tombent** : agrandissez la fenêtre de Chord Live vers le bas et un clavier de 88 touches apparaît sous les accords, avec les notes entendues dans le morceau qui tombent dessus (comme Synthesia) et allument leurs touches quand elles sonnent — même zoom que les accords, suit la transposition de la platine. Réduisez la fenêtre pour le cacher. La lecture des notes est approximative sur un mix complet (tous les instruments et la voix) ; elle est la plus nette au piano et sur les morceaux calmes.
 - 🎶 **Nouveau en V2.5 — accords enrichis au piano** : **m9** (Dm9 = ré fa la do mi) et **aug(#11)** (Gaug(#11) = sol si ré# do#) sur les morceaux calmes, lus d'après les notes vraiment jouées — une note entourée de notes plus fortes n'est plus perdue.
 - ▶️ **Nouveau en V2.4 — les accords sur la forme d'onde dès le chargement d'un morceau** : le petit plugin compagnon *Chord Live AutoStart* allume Chord Live et ses accords sur la forme d'onde sur chaque platine dès le premier morceau chargé — sans clic (si vous le coupez sur une platine, il reste coupé). Le calque prend sa position par défaut, sans écran de réglage, et reste sur la forme d'onde quand une vidéo est lue (V2.4.1).
