@@ -1,5 +1,9 @@
 # Changelog
 
+## V2.8 — 2026-10 (maintenance)
+- Technical update, no visible change: the chord engine is shared with the upcoming features, and the waveform layer of Chord Live gives way to another Chord Live edition active on the same deck (no more chords drawn twice).
+- Version number aligned on 2.8 (window title).
+
 ## V2.6 — 2026-10 (keyboard settings)
 - **Bass notes in orange** on the keyboard (notes under C3).
 - **Clickable legend**: show or hide each part of the notes.
