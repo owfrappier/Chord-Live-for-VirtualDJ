@@ -1,5 +1,16 @@
 # Changelog
 
+## V2.9 — 2026-11 (chords on the real beats, cleaner chords)
+- **Beat grid button** in the window (bottom right, remembered): **beats: attacks** (default) — beats found from the attacks heard in the track (follows a drifting live tempo, finds in-between chords); **auto** — VirtualDJ's beat grid, chord changes played before the beat brought forward to when they are heard (up to half a beat); **on** — VirtualDJ's beat grid; **off** — no grid. A new analysis runs at once when it changes.
+- **Changes no longer shown late** when the chord changes just before the beat (the drums marking the beat after).
+- **Crowd noise and applause** no longer read as notes (a live track started on Dbmaj7 instead of Fm).
+- **Fixed hum** of TV and live recordings (mains 50 / 60 Hz, video 25 Hz and their overtones) removed from the low register (a 75 Hz hum was read as a low D: Fm shown as Dm7b5).
+- **Fewer false inversions**: none read in an empty low register (left hand starting at F3: Fm/C → Fm); the bass struck by the left hand counts more than the fifth that rings on (Cm/G → Cm).
+- **Hollow chords**: a chord missing two of its notes (a held sung note) is replaced by the chord actually played (Abmaj7 without C or Eb, bass G → Gm7b5).
+- **Bass moving in the middle of a chord** splits it (Db from start to end → Fsus4 then Db).
+- **Fix — waveform chords missing** when a video output / second screen was open when VirtualDJ started.
+- **Fix — chord names** now refreshed after every new analysis (they could stay from the previous one).
+
 ## V2.8 — 2026-10 (maintenance)
 - Technical update, no visible change: the chord engine is shared with the upcoming features, and the waveform layer of Chord Live gives way to another Chord Live edition active on the same deck (no more chords drawn twice).
 - Version number aligned on 2.8 (window title).
